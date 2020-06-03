@@ -49,6 +49,6 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     PRIVATE_BUILD_DESC="z2_plus-user 8.0.0 OPR1.170623.032 3.5.243_180126 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := "ZUK/z2_plus/z2_plus:8.0.0/OPR1.170623.032/3.5.243_180126:user/release-keys"
+BUILD_FINGERPRINT := google/coral/coral:10/QQ3A.200605.001/6392402:user/release-keys
 
 TARGET_VENDOR := zuk
