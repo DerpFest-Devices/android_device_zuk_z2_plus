@@ -23,6 +23,9 @@ $(call inherit-product, device/zuk/z2_plus/device.mk)
 # Inherit some common DerpFest stuff.
 $(call inherit-product, vendor/aosip/config/common_full_phone.mk)
 
+# Official-ify
+DERP_BUILDTYPE := Official
+
 # Build type
 DERP_BUILD_ZIP_TYPE := VANILLA
 
